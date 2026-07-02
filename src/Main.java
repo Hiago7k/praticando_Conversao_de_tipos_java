@@ -8,5 +8,12 @@ class Main{
 
         System.out.println("A media ds notas: " + nota1 + " e " + nota2 + " é " + media);
 
+
+        // Declare uma variável do tipo double e uma variável do tipo int. Faça o casting da variável double para int e imprima o resultado.
+        double valor = 3500.00;
+        System.out.println(valor);
+        int valorConvertido = (int) valor;
+        System.out.println(valorConvertido);
+
     }
 }
