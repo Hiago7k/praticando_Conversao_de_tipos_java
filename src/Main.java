@@ -22,6 +22,19 @@ class Main{
         String frase = "é a primeira letra do alfabeto";
         System.out.println(letra + " " + frase);
 
+        // 4 Declare uma variável do tipo double precoProduto e uma variável do tipo int (quantidade). Calcule o valor total multiplicando o preço do produto pela quantidade e apresente o resultado em uma mensagem.
+        double precoProduto = 19.99;
+        int quantidadeComprada = 6;
+        double valorTotal = quantidadeComprada * precoProduto;
+        System.out.println("Você comprou a quantidade de: " + quantidadeComprada + " pelo valoir de" + precoProduto);
+        System.out.println("O total a ser pago ficou: " + valorTotal);
+
+
+        // 5 Declare uma variável do tipo double valorEmDolares. Atribua um valor em dólares a essa variável. Considere que o valor de 1 dólar é equivalente a 4.94 reais. Realize a conversão do valor em dólares para reais e imprima o resultado formatado.
+        double valorEmDolares = 4.94;
+        double dolares = 20;
+        double valoEmReais = dolares * valorEmDolares;
+        System.out.println("Convertando " + dolares + " U$" +  " para reais temos um total de " + valoEmReais);
 
     }
 }
